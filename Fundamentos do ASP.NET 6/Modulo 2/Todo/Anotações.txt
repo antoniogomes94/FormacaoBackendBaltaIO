@@ -1,0 +1,5 @@
+﻿Testar o crud com a seguintes opções
+	- Instanciando o DBContext sem using
+	- Instanciando o DBContext com using
+	- Fazendo injeção de dependencia padrão
+	- Fazendo injeção com o builder.Services.AddDbContext<AppDbContext>();

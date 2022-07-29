@@ -6,5 +6,10 @@ namespace Todo.Models
         public string Title { get; set; }
         public bool Done { get; set; }
         public DateTime CreatedAt { get; set; }
+
+        public TodoModel()
+        {
+            CreatedAt = DateTime.Now;
+        }
     }
 }
