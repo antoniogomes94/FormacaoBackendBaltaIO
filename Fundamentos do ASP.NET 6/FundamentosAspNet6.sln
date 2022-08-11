@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinhaApi", "Modulo 1\MinhaA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo", "Modulo 2\Todo\Todo.csproj", "{F4A03B24-6D38-47CD-98DB-0546C15D426A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{4F99A2FD-25D6-46A6-B160-014FB65E0A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog", "Blog\Blog.csproj", "{9A3F17B5-22DE-475E-9DFA-AF495C4D468F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{F4A03B24-6D38-47CD-98DB-0546C15D426A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4A03B24-6D38-47CD-98DB-0546C15D426A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4A03B24-6D38-47CD-98DB-0546C15D426A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3F17B5-22DE-475E-9DFA-AF495C4D468F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3F17B5-22DE-475E-9DFA-AF495C4D468F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3F17B5-22DE-475E-9DFA-AF495C4D468F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3F17B5-22DE-475E-9DFA-AF495C4D468F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{67853ECA-FAE4-49D1-A0E2-937C54EC0321} = {7358F098-ACA7-4AAB-B40A-A44856FCDD65}
 		{F4A03B24-6D38-47CD-98DB-0546C15D426A} = {48F28B27-D53D-43F5-A340-B3D7EF9C0374}
+		{9A3F17B5-22DE-475E-9DFA-AF495C4D468F} = {4F99A2FD-25D6-46A6-B160-014FB65E0A20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C01CE51-BFC7-473B-9679-392BF5876B0A}
