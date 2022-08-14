@@ -12,6 +12,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo", "Modulo 2\Todo\Todo.csproj", "{F4A03B24-6D38-47CD-98DB-0546C15D426A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{4F99A2FD-25D6-46A6-B160-014FB65E0A20}"
+	ProjectSection(SolutionItems) = preProject
+		Blog\blog.sql = Blog\blog.sql
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog", "Blog\Blog.csproj", "{9A3F17B5-22DE-475E-9DFA-AF495C4D468F}"
 EndProject

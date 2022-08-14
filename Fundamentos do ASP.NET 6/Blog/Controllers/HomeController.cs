@@ -12,5 +12,12 @@ namespace Blog.Controllers
         {
             return Ok();
         }
+        
+        [HttpGet("/ApiKey/")]
+        //Endpoint para helath check para ver se a api está ok
+        public IActionResult GetComAPiKey()
+        {
+            return Ok();
+        }
     }
 }
